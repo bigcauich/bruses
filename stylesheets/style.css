@@ -149,9 +149,13 @@ nav .navbar-nav li a{
 .divisorderecha{
       border-right: 1px solid #5c5c5b;
 }
-
+#presave {
+    background: url(../images/textura.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .presave{
-  background-color: #c7c2c4;
    font-size: 30px;
 }
 .presave img{
@@ -178,12 +182,12 @@ nav .navbar-nav li a{
 .botones {
   align-items: center;
   background-color: transparent;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   box-sizing: border-box;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   display: inline-flex;
-  fill: #000;
+  fill: #fff;
   font-size: 20px;
   height: 48px;
   justify-content: center;
@@ -204,11 +208,11 @@ nav .navbar-nav li a{
   }
 }
 .botones a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .botones a:hover{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -271,3 +275,4 @@ nav .navbar-nav li a{
   user-select: none;
   -webkit-user-select: none;
 }
+
